@@ -1,0 +1,18 @@
+.PythonLogo {
+  vertical-align: middle;
+  margin: 0;
+  animation: spin 10s linear infinite;
+}
+
+@media (max-width: 768px) {
+  .PythonLogo {
+    display: none;
+  }
+}
+
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}

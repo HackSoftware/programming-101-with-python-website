@@ -1,0 +1,18 @@
+.TeacherImage {
+  width: 20rem;
+  border: 1px solid;
+}
+.TeacherContainer {
+  width: 50%;
+  display: inline-table;
+}
+
+@media (max-width: 768px) {
+  .TeacherContainer {
+    width: 100%;
+  }
+}
+
+.TeacherName {
+  font-weight: bold;
+}
