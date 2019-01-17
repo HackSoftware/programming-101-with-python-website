@@ -1,18 +1,18 @@
-import React from 'react';
-import {Helmet} from 'react-helmet';
+import React from 'react'
+import { Helmet } from 'react-helmet'
 
-import Inline from '../components/Inline';
-import Container from '../components/Container';
-import Section from '../components/Section';
-import PythonLogo from '../components/PythonLogo';
-import ApplyHere from '../components/ApplyHere';
-import Teachers from '../components/Teachers';
-import Footer from '../components/Footer';
+import Inline from '../components/Inline'
+import Container from '../components/Container'
+import Section from '../components/Section'
+import PythonLogo from '../components/PythonLogo'
+import ApplyHere from '../components/ApplyHere'
+import Teachers from '../components/Teachers'
+import Footer from '../components/Footer'
 
-import styles from './index.module.css';
-import favicon from './favicon.ico';
+import styles from './index.module.css'
+import favicon from './favicon.ico'
 
-import './index.css';
+import './index.css'
 
 const IndexPage = () => (
   <React.Fragment>
@@ -48,12 +48,14 @@ const IndexPage = () => (
             <a
               href="https://www.google.com/maps/place/Hack+Bulgaria/@42.6477396,23.3825581,17z/data=!3m1!4b1!4m5!3m4!1s0x40aa86ed287d5e33:0x315f162015dedaa3!8m2!3d42.6477396!4d23.3847468"
               target="_blank"
-              rel="noopener noreferrer">
+              rel="noopener noreferrer"
+            >
               HackBulgaria's lecture hall
             </a>
           </li>
           <li>
-            Price - <strong>free for students</strong>, who are not currently working.
+            Price - <strong>free for students</strong>, who are not currently
+            working.
           </li>
           <li>
             <ApplyHere />
@@ -104,7 +106,8 @@ const IndexPage = () => (
             <a
               href="https://github.com/HackBulgaria/Programming-101-Python-2019"
               target="_blank"
-              rel="noopener noreferrer">
+              rel="noopener noreferrer"
+            >
               GitHub repository.
             </a>
           </strong>
@@ -141,19 +144,55 @@ const IndexPage = () => (
       </Section>
       <Section>
         <h2>Price and Apply</h2>
+        <ul className={styles.List}>
+          <li>
+            The course is{' '}
+            <strong>free for students who are not currently working.</strong>
+          </li>
+          <li>
+            The course costs <strong>600 BGN with VAT</strong> for everyone
+            else.
+            <em>
+              The course can be paid in two equal parts, at the start and the
+              end of it.
+            </em>
+          </li>
+        </ul>
+      </Section>
+      <Section>
+        <h2>Application process</h2>
         <p>
-          <strong>
-            The course is free for students who are not currently working.
-          </strong>
+          This course has an application process that will select{' '}
+          <strong>25 students</strong> to participate.
         </p>
 
-        <p>
-          <strong>
-            The course costs 600 BGN with VAT for everyone who is currently
-            working.
-          </strong>
-        </p>
-
+        <p>The application process is as follows:</p>
+        <ul className={styles.List}>
+          <li>
+            You have to solve 2 programming problems,{' '}
+            <a href="">located here</a>
+          </li>
+          <li>
+            Next, we are going to conduct an online interview with you. We are
+            going to ask technical and non-technical questions.
+          </li>
+          <li>
+            Once the interviews are done, we are going to compile a short list
+            of candidates and send them a special 3rd programming problem to
+            solve.
+          </li>
+          <li>
+            Next, we'll conduct a second online interview, to discuss the
+            solution to the 3rd problem.
+          </li>
+          <li>
+            At the end,{' '}
+            <strong>
+              we'll compile the final list of the 25 selected students
+            </strong>{' '}
+            for the course
+          </li>
+        </ul>
         <p>
           <ApplyHere />
         </p>
@@ -166,6 +205,6 @@ const IndexPage = () => (
       <Footer />
     </Container>
   </React.Fragment>
-);
+)
 
-export default IndexPage;
+export default IndexPage
