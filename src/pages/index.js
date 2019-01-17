@@ -21,7 +21,21 @@ const IndexPage = () => (
       <title>Programming 101 with Python by HackBulgaria</title>
       <meta
         name="description"
-        content="Course Programming 101 with Python by HackBulgaria. Starts on 25th of February, 2019, ends on 27th of May, 2019."
+        content="Programming 101 with Python by HackBulgaria. Starts on 25th of February, 2019, ends on 27th of May, 2019."
+      />
+      <meta
+        property="og:url"
+        content="https://hackbulgaria.com"
+      />
+      <meta property="og:type" content="website" />
+      <meta property="og:title" content="Programming 101 with Python 2019 by HackBulgaria." />
+      <meta
+        property="og:description"
+        content="Programming 101 with Python by HackBulgaria. Starts on 25th of February, 2019, ends on 27th of May, 2019."
+      />
+      <meta
+        property="og:image"
+        content=""
       />
     </Helmet>
 
