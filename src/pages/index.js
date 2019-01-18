@@ -14,8 +14,6 @@ import favicon from './favicon.ico'
 
 import './index.css'
 
-import ogImage from '../images/og_image.png';
-
 const IndexPage = () => (
   <React.Fragment>
     <Helmet>
