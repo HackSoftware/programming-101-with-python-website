@@ -12,9 +12,9 @@ export default () => {
         <div className={styles.TeacherInfo}>
           <p className={styles.TeacherName}>Rositsa Zlateva</p>
           <ul>
-            <li>Software Developer at HedgeServ.</li>
-            <li>Info point here.</li>
-            <li>Info point here.</li>
+            <li>Full Stack Python Developer at HedgeServ.</li>
+            <li>4 years of experience writing backend with Python.</li>
+            <li>Taught 2 previous Python 101 courses.</li>
           </ul>
         </div>
       </div>
