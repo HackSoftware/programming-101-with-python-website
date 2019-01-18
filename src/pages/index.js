@@ -23,20 +23,17 @@ const IndexPage = () => (
         name="description"
         content="Programming 101 with Python by HackBulgaria. Starts on 25th of February, 2019, ends on 27th of May, 2019."
       />
-      <meta
-        property="og:url"
-        content="https://hackbulgaria.com"
-      />
+      <meta property="og:url" content="https://hackbulgaria.com" />
       <meta property="og:type" content="website" />
-      <meta property="og:title" content="Programming 101 with Python 2019 by HackBulgaria." />
+      <meta
+        property="og:title"
+        content="Programming 101 with Python 2019 by HackBulgaria."
+      />
       <meta
         property="og:description"
         content="Programming 101 with Python by HackBulgaria. Starts on 25th of February, 2019, ends on 27th of May, 2019."
       />
-      <meta
-        property="og:image"
-        content=""
-      />
+      <meta property="og:image" content="" />
     </Helmet>
 
     <Container>
@@ -184,7 +181,13 @@ const IndexPage = () => (
         <ul className={styles.List}>
           <li>
             You have to solve 2 programming problems,{' '}
-            <a href="">located here</a>
+            <a
+              href="https://github.com/HackBulgaria/Programming-101-Python-2019/tree/master/Application"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              located here
+            </a>
           </li>
           <li>
             Next, we are going to conduct an online interview with you. We are

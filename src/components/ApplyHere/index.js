@@ -1,7 +1,7 @@
 import React from 'react'
 
 const FORM_URL =
-  'https://docs.google.com/forms/d/e/1FAIpQLSchcj7b7slun0027babtwZFJsd8EFcm_oi5eYNny4999Wr4jQ/viewform'
+  'https://docs.google.com/forms/d/e/1FAIpQLSdfuoOouk5LLShvpxaJZMUeFmN7Fa44HW2ncJiKJfooxVgl5Q/viewform'
 
 export default () => {
   return (
