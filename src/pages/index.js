@@ -77,7 +77,7 @@ const IndexPage = () => (
         <h2>Course Program</h2>
         <p>
           The course will cover fundamental software development practices,
-          using Python as primary language.
+          using Python as a primary language.
         </p>
 
         <p>
@@ -87,13 +87,13 @@ const IndexPage = () => (
           </strong>
         </p>
 
-        <p>The high level agenda includes:</p>
+        <p>The high-level agenda includes:</p>
         <ul className={styles.List}>
           <li>
             Learning <strong>Python</strong> as a programming language.
           </li>
           <li>
-            Working with <strong>Linux-based operating system.</strong>
+            Working with <strong>a Linux-based operating system.</strong>
           </li>
           <li>Learning how to unit test our programs.</li>
           <li>Working with relational databases and SQL. Working with ORMs.</li>
@@ -133,7 +133,7 @@ const IndexPage = () => (
         </p>
 
         <p>
-          <strong>This is not a beginners course.</strong> The course requires
+          <strong>This is not a beginners' course.</strong> The course requires
           basic understanding of:
         </p>
 
@@ -141,7 +141,7 @@ const IndexPage = () => (
           <li>How to work with computers.</li>
           <li>General programming principles.</li>
           <li>Data structures and algorithms.</li>
-          <li>Object oriented programming.</li>
+          <li>Object-oriented programming.</li>
         </ul>
 
         <p>
@@ -203,7 +203,7 @@ const IndexPage = () => (
             solution to the 3rd problem.
           </li>
           <li>
-            At the end,{' '}
+            In the end,{' '}
             <strong>
               we'll compile the final list of the 25 selected students
             </strong>{' '}
