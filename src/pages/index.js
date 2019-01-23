@@ -8,6 +8,7 @@ import PythonLogo from '../components/PythonLogo'
 import ApplyHere from '../components/ApplyHere'
 import Teachers from '../components/Teachers'
 import Footer from '../components/Footer'
+import FacebookPixel from '../components/FacebookPixel'
 
 import styles from './index.module.css'
 import favicon from './favicon.ico'
@@ -226,6 +227,7 @@ const IndexPage = () => (
       </Section>
       <Footer />
     </Container>
+    <FacebookPixel />
   </React.Fragment>
 )
 
