@@ -34,6 +34,7 @@ const IndexPage = () => (
         content="Programming 101 with Python by HackBulgaria. Starts on 25th of February, 2019, ends on 27th of May, 2019."
       />
       <meta property="og:image" content="https://hacksoft.s3.amazonaws.com/media/images/og_image.original.png" />
+      <meta property="fb:app_id" content="1051225675085770" />
     </Helmet>
 
     <Container>
