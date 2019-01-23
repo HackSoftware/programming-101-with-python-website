@@ -33,7 +33,7 @@ const IndexPage = () => (
         property="og:description"
         content="Programming 101 with Python by HackBulgaria. Starts on 25th of February, 2019, ends on 27th of May, 2019."
       />
-      <meta property="og:image" content="https://s3.eu-central-1.amazonaws.com/python101-2019/og_image.png" />
+      <meta property="og:image" content="https://hacksoft.s3.amazonaws.com/media/images/og_image.original.png" />
     </Helmet>
 
     <Container>
