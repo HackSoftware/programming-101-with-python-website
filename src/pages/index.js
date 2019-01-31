@@ -224,6 +224,13 @@ const IndexPage = () => (
           In case you have any questions, drop an email at{' '}
           <strong>radorado@hacksoft.io</strong>
         </p>
+        <p>
+          Or you can join us for a <strong>live Q&amp;A session</strong> on 4th of February, at
+          19:00.{' '}
+          <a href="https://www.facebook.com/events/438207540051476/">
+            More info here.
+          </a>
+        </p>
       </Section>
       <Footer />
     </Container>
