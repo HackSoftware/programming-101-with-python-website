@@ -7,6 +7,7 @@ import Section from '../components/Section'
 import PythonLogo from '../components/PythonLogo'
 import ApplyHere from '../components/ApplyHere'
 import Teachers from '../components/Teachers'
+import Partners from '../components/Partners'
 import Footer from '../components/Footer'
 import FacebookPixel from '../components/FacebookPixel'
 
@@ -159,6 +160,23 @@ const IndexPage = () => (
         <h2>Course Teachers</h2>
         <Teachers />
       </Section>
+
+      <Section>
+        <h2>Partners</h2>
+        <p>When our students succeed, so do we.</p>
+
+        <p>
+          We partner with companies which support the course and help our
+          students to start their career.
+        </p>
+
+        <p>
+          <strong>The partners for the 8th edition of the course are:</strong>
+        </p>
+
+        <Partners />
+      </Section>
+
       <Section>
         <h2>Price and Apply</h2>
         <ul className={styles.List}>
@@ -176,6 +194,7 @@ const IndexPage = () => (
           </li>
         </ul>
       </Section>
+
       <Section>
         <h2>Application process</h2>
         <p>
@@ -225,8 +244,8 @@ const IndexPage = () => (
           <strong>radorado@hacksoft.io</strong>
         </p>
         <p>
-          Or you can join us for a <strong>live Q&amp;A session</strong> on 4th of February, at
-          19:00.{' '}
+          Or you can join us for a <strong>live Q&amp;A session</strong> on 4th
+          of February, at 19:00.{' '}
           <a href="https://www.facebook.com/events/438207540051476/">
             More info here.
           </a>
