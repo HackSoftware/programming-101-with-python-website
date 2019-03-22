@@ -20,7 +20,7 @@ export default () => {
       <a href="https://www.hacksoft.io/">
         <img src={hacksoft} alt="HackSoft" />
       </a>
-      <a href="https://www.hedgeserv.com/">
+      <a href="https://www.hedgeserv.com/career/">
         <img src={hedgeserv} alt="HedgeServ" />
       </a>
       <a href="https://www.acronis.com/en-eu/">
